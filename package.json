@@ -1,12 +1,13 @@
 {
-  "name": "untitled2",
+  "name": "Game_Platform",
   "version": "0.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "vue": "^3.4.29",
@@ -14,6 +15,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
-    "vite": "^5.3.1"
+    "vite": "^5.3.1",
+    "gh-pages": "^3.2.3"
   }
 }
